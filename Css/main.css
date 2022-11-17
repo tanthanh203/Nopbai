@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+#skill{
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 100px;
+	background-color: #619965;
+	color: aliceblue;
+	
+}
+#skill .item h3{
+	text-transform: uppercase;
+	padding: 5px;
+}
+#skill .item{
+	text-align: center;
+	width: 20%;
+}
+#banner{
+	background-image:url("../img/12-IMG-2135_1636470641-163651552687.jpg");
+	height: 100vh;
+	background-position: bottom;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: aliceblue;
+	padding: 5px;
+}
+#banner h1 {
+	font-size: 70px;
+}
+#banner i {
+	padding: 10px;
+	font-size:30px;
+}
+@keyframes lenxuong{
+	0%{
+		transform: translateY(0);
+	}
+	100%{
+		transform: translateY(20px);
+	}
+}
+#banner .lenxuong{
+	animation: lenxuong 1s infinite;
+}
+#about{
+	padding: 100px 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+#portfolio{
+	padding: 50px 100px;
+	text-align: center;
+}
+#portfolio ul{
+	list-style-type: none;
+	padding: 10px;
+	
+	
+}
+#portfolio .gridport{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 25px;
+	
+	
+}
+#portfolio .gridport img{
+	width: 100%;
+	
+		
+}
+#about div{
+	width: 30%;
+	padding-left: 50px;
+}
+#portfolio ul li {
+	display: inline;
+	padding: 0px 10px;
+}
+#about div h2{
+	font-size: 30px;
+	padding-bottom: 20px;
+	
+}
+#getintouch{
+	padding:50px  200px ;
+	text-align: center;
+
+	
+	
+}
+#getintouch p {
+	width: 50%;
+	margin: 0 auto;
+}
+#getintouch .contactme{
+	display: flex;
+	justify-content: space-between;
+	padding-right: 10px;	
+}
+.form{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 20px;
+	
+}
+.form textarea {
+	
+grid-column: 1/3;
+		
+}
+.form textarea,input{
+	border: none;
+	padding: 5px;
+	border-bottom: 1px solid;
+	
+}
+
+header ul li{
+	display:inline;
+	padding: 0px 20px;
+	color: aliceblue;
+	
+}
+header{
+	display: none;
+	justify-content: space-between;
+	padding: 2px 200px 5px 200px;
+	position: fixed;
+	width: 80%;
+	background-color: #062E03;
+	
+}
+
+
+
